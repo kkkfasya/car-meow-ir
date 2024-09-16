@@ -1,4 +1,4 @@
-# CAT_IR_LLVM
+# CAR-MEOW-IR
 Download cat from https://cataas.com/cat with llvm ir and libcurl
 
 ## Requirements
