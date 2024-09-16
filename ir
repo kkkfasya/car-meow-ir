@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# convert c code to llvm ir
+clang -S -emit-llvm $1
