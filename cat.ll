@@ -6,9 +6,7 @@ target triple = "x86_64-pc-linux-gnu" ; NOTE: may need to change depending on yo
 @write_mode = private unnamed_addr constant [3 x i8] c"wb\00", align 1
 
 @user_agent = private unnamed_addr constant [115 x i8] c"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36\00", align 1
-;@cat_url = private unnamed_addr constant [23 x i8] c"https://cataas.com/cat\00", align 1 TODO: uncomment
-@cat_url = private unnamed_addr constant [33 x i8] c"http://127.0.0.1:8080/amogus.png\00", align 1
-
+@cat_url = private unnamed_addr constant [23 x i8] c"https://cataas.com/cat\00", align 1
 
 @err_msg = private unnamed_addr constant [61 x i8] c"[ERROR] PROBLEM OCCURED WHEN DOWNLOAD CAT :(\0AERROR CODE: %s\0A\00", align 1
 @happy_cat_msg_yippyy = private unnamed_addr constant [34 x i8] c"[INFO] CAT SUCCESFULLY DOWNLOADED\00", align 1 ; TODO: add yippy emoji
