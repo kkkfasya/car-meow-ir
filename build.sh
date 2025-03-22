@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 CFLAGS='pkg-config --cflags libcurl'
 LIBS='pkg-config --libs libcurl'
